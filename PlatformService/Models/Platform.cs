@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+//test
 namespace PlatformService.Models
 {
     public class Platform
