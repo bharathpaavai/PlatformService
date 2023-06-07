@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{8A29EFB7-FB2E-40E7-B92B-EDF925D22075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{995F44B2-4EC1-439C-81B3-A360D6A8C19B}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\ingress-srv.yaml = K8S\ingress-srv.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\mssql-plat-depl.yaml = K8S\mssql-plat-depl.yaml
+		K8S\platform-depl.yaml = K8S\platform-depl.yaml
+		K8S\platform-np-serv.yaml = K8S\platform-np-serv.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A29EFB7-FB2E-40E7-B92B-EDF925D22075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A29EFB7-FB2E-40E7-B92B-EDF925D22075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A29EFB7-FB2E-40E7-B92B-EDF925D22075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A29EFB7-FB2E-40E7-B92B-EDF925D22075}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3797ACC5-4D47-4E1B-8006-8BFCED039ABB}
+	EndGlobalSection
+EndGlobal
