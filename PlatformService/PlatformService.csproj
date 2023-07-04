@@ -11,13 +11,18 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Docker.DotNet.Extension" Version="1.0.1" />
     <PackageReference Include="Microsoft.EntityFrameWorkCore" Version="7.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameWorkCore.Design" Version="7.0.5">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameWorkCore.InMemory" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameWorkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
   </ItemGroup>
 
 </Project>
