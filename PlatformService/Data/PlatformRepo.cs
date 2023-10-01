@@ -12,6 +12,8 @@ namespace PlatformService.Data
             _context = context;
         }
 
+
+
         public void createPlatform(Platform platform)
         {
             if (platform == null)
