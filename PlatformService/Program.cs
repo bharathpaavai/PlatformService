@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
-
+//test
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
