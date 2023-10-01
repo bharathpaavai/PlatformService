@@ -11,7 +11,7 @@ namespace PlatformService.Data
         {
             _context = context;
         }
-\\this is test
+
         public void createPlatform(Platform platform)
         {
             if (platform == null)
